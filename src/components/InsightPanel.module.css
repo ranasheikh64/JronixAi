@@ -1,0 +1,201 @@
+.insightPanel {
+  width: var(--insight-width);
+  height: 100vh;
+  background-color: var(--bg-surface);
+  border-left: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  z-index: 50;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding: 0 8px;
+}
+
+.headerIcon {
+  color: var(--status-gold);
+}
+
+.header h2 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.statCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border-bright);
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.statLabel {
+  font-size: 0.65rem;
+  color: var(--text-tertiary);
+  margin-bottom: 4px;
+}
+
+.statValue {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.statSub {
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+
+.sectionTitle {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+  padding: 0 8px;
+}
+
+.capList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.capItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-bright);
+  border-radius: 10px;
+  position: relative;
+}
+
+.inactive {
+  opacity: 0.5;
+}
+
+.capIcon {
+  width: 24px;
+  height: 24px;
+  background: var(--bg-card-hover);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-secondary);
+}
+
+.capInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.capName {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.capStatus {
+  font-size: 0.65rem;
+  color: var(--text-tertiary);
+}
+
+.indicator {
+  position: absolute;
+  right: 12px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--text-tertiary);
+}
+
+.activeInd {
+  background: var(--status-green);
+  box-shadow: 0 0 6px var(--status-green);
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shield {
+  color: var(--status-gold);
+}
+
+.memoryList {
+  background: var(--bg-card);
+  border: 1px solid var(--border-bright);
+  border-radius: 12px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.memoryItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px;
+  background: var(--bg-card-hover);
+  border-radius: 8px;
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+}
+
+.footer {
+  margin-top: auto;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 16px;
+}
+
+.systemStatus {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: var(--accent-glow);
+  border-radius: 12px;
+  border: 1px solid rgba(124, 106, 245, 0.1);
+  color: var(--accent-primary);
+}
+
+.statusInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.modelName {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.latency {
+  font-size: 0.65rem;
+  color: var(--text-tertiary);
+}
