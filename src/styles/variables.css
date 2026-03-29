@@ -1,0 +1,37 @@
+:root {
+  /* Color Palette - Premium Space Theme */
+  --bg-deep: #050508;
+  --bg-surface: #0a0a0f;
+  --bg-card: #12121e;
+  --bg-card-hover: #1a1a2e;
+  
+  --accent-primary: #7c6af5;
+  --accent-secondary: #a594f9;
+  --accent-glow: rgba(124, 106, 245, 0.2);
+  
+  --text-primary: #f8f8ff;
+  --text-secondary: #a8a4c8;
+  --text-tertiary: #6b678a;
+  
+  --border-subtle: rgba(255, 255, 255, 0.05);
+  --border-bright: rgba(255, 255, 255, 0.12);
+  
+  --status-green: #4ade80;
+  --status-gold: #fbbf24;
+  --status-red: #f87171;
+  
+  /* Typography */
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  
+  /* Effects */
+  --glass-bg: rgba(10, 10, 15, 0.7);
+  --glass-blur: blur(12px);
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.8);
+  
+  /* Layout */
+  --sidebar-width: 260px;
+  --insight-width: 240px;
+  --header-height: 64px;
+}
